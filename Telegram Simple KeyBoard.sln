@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram Simple KeyBoard", "Telegram Simple KeyBoard.csproj", "{19B637D1-6295-4B28-AC4A-86C32D615617}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19B637D1-6295-4B28-AC4A-86C32D615617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19B637D1-6295-4B28-AC4A-86C32D615617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19B637D1-6295-4B28-AC4A-86C32D615617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19B637D1-6295-4B28-AC4A-86C32D615617}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D58465BD-9EE6-4222-A7F9-821A543F3E0C}
+	EndGlobalSection
+EndGlobal

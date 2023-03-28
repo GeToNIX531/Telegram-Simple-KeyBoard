@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Telegram_Simple_KeyBoard</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Authors>Дмитрий Потапов (GeToNiX531)</Authors>
+    <Company>Дмитрий Потапов (GeToNiX531)</Company>
+    <Description>Упращённая работа с клавиатурой.</Description>
+    <PackageTags>Telegram, KeyBoard, Simple Code</PackageTags>
+    <PackageId>TelegramSimpleKeyBoard</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="19.0.0-preview.1" />
+  </ItemGroup>
+
+</Project>
